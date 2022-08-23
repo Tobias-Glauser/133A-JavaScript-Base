@@ -12,5 +12,8 @@
     let b = 'toto';
 
     console.log(a, b);
+    const  prenom = prompt('Entrez votre prénom :');
+    const name = prompt('Entrez votre nom :');
+    alert(`Bonjour, ${prenom} ${name} !`);
 }()); // Main IIFE
 
